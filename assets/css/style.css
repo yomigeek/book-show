@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+body{
+  padding:0;
+  margin:0;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+/*navbar*/
+.bg-blue-theme{
+  background-color: #0B20FF;
+  color: #fff;
+  box-shadow:0 2px 6px 0 hsla(0,0%,0%,0.2);
+}
+.bg-white-theme{
+  background-color: #fff;
+  color:#0B20FF;
+  box-shadow:0 2px 6px 0 hsla(0,0%,0%,0.2);
+}
+.navbar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+}
+.navbar-blue-theme .navbar-nav .nav-link {
+  color:#0B20FF;
+  border-bottom: 4px solid transparent;
+  border-radius:2px;
+}
+.orange {
+  color:#eab609;
+}
+.white{
+  color: #fff;
+}
+.active{
+  border-bottom: 4px solid #0B20FF !important;
+}
+.nav-link {
+  display: block;
+  padding: 1rem 1rem;
+  margin: 0px 4px;
+}
+.navbar-blue-theme .navbar-brand {
+  color:#0B20FF;
+}
+.nav-link:focus, .nav-link:hover {
+  text-decoration: none;
+  border-color: #0B20FF !important;
+  transition: border-color ease-in-out .5s !important;
+  /* border-bottom: 3px solid dodgerblue; */
+}
+.btn__wiz{
+  border: 2px solid #0B20FF;
+  background-color: #fff;
+}
+.btn__wiz > a {
+  text-decoration: none;
+}
+/* .btn__wiz > a:hover {
+  color: #fff;
+} */
+.btn__wiz:hover, .btn__wiz:focus {
+  color:#fff !important;
+  background-color: #f4f4f4;
+}
+.header{
+  position: relative;
+  background: url(../images/stack.jpg) no-repeat;
+  height: 600px;
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.overlay{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  width:100%;
+  height: 100%;
+  left:0;
+  top:0;
+  right:0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+/*Item-section*/
+.item-section{
+  background: #f4f4f4;
+}
+.booklist{
+  margin-bottom: 15px;
+}
+.book-card{
+  background: #fff;
+  padding: 10px;
+  box-shadow:0 2px 6px 0 hsla(0,0%,0%,0.2);
+}
+.item-section{
+  padding: 20px 0px;
+}
+.footer{
+  background-color:#0B20FF;
+  color: #fff;
+}
+/* .footer__list{
+  padding: 10px;
+} */
+.footer__list > ul > li {
+  list-style-type: none;
+}
+.footer__list > ul > li > a{
+  color:#fff;
+}
+.bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right:0;
+}
